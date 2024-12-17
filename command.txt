@@ -1,0 +1,8 @@
+mlagents-learn path/moveToGoal.yaml --run-id=myId --force
+
+mlagents-learn path/moveToGoal.yaml --initialize-from=lastId --run-id=myId --force
+
+mlagents-learn path/moveToGoal.yaml --env=path/excutable --num-env=8 --initialize-from=lastId --run-id=myId --force 
+
+
+tensorboard --logdir results
